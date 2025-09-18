@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="tiepnhan.html" style="width:30%;background-color:aqua;margin: auto;">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <label for="">Họ Và tên</label>
+            <input type="text" name="hoVaTen" id="hovaten">
+            <br/>
+            <label for="">Hòm Thư</label>
+            <input type="email">
+            <br/>
+            <label for="">Mật khẩu</label>
+            <input type="password">
+            <br/>
+            <label for="">Xác nhận mật khẩu</label>
+            <input type="password">
+            <br/>
+            <label for="">Giới tính</label>
+            <input type="radio" name="gioitinh"/><span>Nam</span>
+            <input type="radio" name="gioitinh"/><span>Nữ</span>
+            <input type="radio" name="gioitinh"/><span>Khác</span>
+            <br/>      
+            <label for="">Sở thích</label>
+            <input type="checkbox" name="sothich"/><span>Thể Thao</span>
+            <input type="checkbox" name="sothich"/><span>Âm nhạc</span>
+            <input type="checkbox" name="sothich"/><span>Du lịch</span>
+            <br/>
+            <label>Ngày sinh</label>
+            <input type="date">      
+            <br/>
+            <label>Quốc gia</label>
+                <select name="nation" id="nation">
+                    <option value="vn">Việt Nam</option>
+                    <option value="uk">Hoa Kỳ</option>
+                    <option value="us">Anh</option>
+                    <option value="fr">Pháp</option>
+                    <option value="jp">Nhật</option>
+                </select>
+            <br/>
+            <label>Điện thoại</label>
+            <input type="tel"/>
+            <br/>
+            <label>Địa chỉ liên hệ</label>
+                <textarea name="diachi" id="diachi"
+                    cols="40"
+                    rows="4"></textarea>
+            <br/>    
+            <div>
+                <button type="sumbit">Gửi</button>
+                <button type="reset">Hủy</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
